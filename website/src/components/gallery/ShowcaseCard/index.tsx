@@ -34,6 +34,8 @@ import ShowcaseCardPanel from "../ShowcaseCardPanel/index";
 import ShowcaseCardTag from "../ShowcaseTag/index";
 import { useColorMode } from "@docusaurus/theme-common";
 
+const vscodeDotDevEndpoint = 'http://localhost:3000';
+
 const useStyles = makeStyles({
   cardTag: {
     fontSize: "10px",
@@ -204,6 +206,7 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
           flexDirection: "column",
           position: "relative",
           maxHeight: "inherit",
+          height: '100%',
         }}
       >
         <FluentUILink className={styleCSS.cardTitle} onClick={openPanel}>
@@ -264,7 +267,16 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
       </div>
       <CardPreview className={styleCSS.cardBreakLine} />
       <CardFooter>
-        <Input
+        <Button 
+              className={styleCSS.tryTemplateButton}
+              onClick={() => {
+                const azureDevUrl = `${vscodeDotDevEndpoint}/azure?azdTemplateUrl=${source}`;
+                window.open(azureDevUrl, '_blank');
+              }}
+        >
+          Try Template
+        </Button>
+        {/* <Input
           id={"input_" + user.title}
           size="small"
           spellCheck={false}
@@ -287,7 +299,7 @@ function ShowcaseCard({ user }: { user: User }): JSX.Element {
           <PopoverSurface style={{ padding: "5px", fontSize: "12px" }}>
             <div>Copied!</div>
           </PopoverSurface>
-        </Popover>
+        </Popover> */}
       </CardFooter>
     </Card>
   );

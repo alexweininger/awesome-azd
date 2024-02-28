@@ -56,6 +56,10 @@
   -webkit-text-fill-color: #707070;
 }
 
+.tryTemplateButton {
+  width: 100%;
+}
+
 .copyIconButton {
   padding: 0px !important;
   min-height: 20px !important;
