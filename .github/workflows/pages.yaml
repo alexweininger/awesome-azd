@@ -25,6 +25,9 @@ jobs:
           npm ci
           npm run build
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
+
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
