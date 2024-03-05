@@ -19,14 +19,6 @@ const config = {
   title: "Awesome Azure Developer CLI",
   tagline: "Discover - Create - Contribute",
 
-  // CONIFIG: Used for GitHub Pages
-  url: "https://azure.github.io",
-  baseUrl: "/awesome-azd/",
-  favicon: "img/favicon.ico",
-  organizationName: "azure",
-  projectName: "awesome-azd",
-  deploymentBranch: "gh-pages",
-
   // CONFIG: Early detection for site health
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
