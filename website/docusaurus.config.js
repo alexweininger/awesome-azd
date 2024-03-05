@@ -19,6 +19,11 @@ const config = {
   title: "Awesome Azure Developer CLI",
   tagline: "Discover - Create - Contribute",
 
+  // CONIFIG: Used for GitHub Pages
+  url: "https://thankful-tree-067d73a10.5.azurestaticapps.net",
+  baseUrl: "/",
+  favicon: "img/favicon.ico",
+
   // CONFIG: Early detection for site health
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
