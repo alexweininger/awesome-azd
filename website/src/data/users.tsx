@@ -17,7 +17,9 @@ import templates from '../../static/templates.json'
 // Add your site to this list
 // prettier-ignore
 
-export const unsortedUsers: User[] = templates as User[]
+export const unsortedUsers: User[] = templates.filter((template) => {
+  return !template.tags.includes('aca');
+}) as User[]
 
 export const TagList = Object.keys(Tags) as TagType[];
 function sortUsers() {
