@@ -34,7 +34,7 @@ import ShowcaseCardPanel from "../ShowcaseCardPanel/index";
 import ShowcaseCardTag from "../ShowcaseTag/index";
 import { useColorMode } from "@docusaurus/theme-common";
 
-const vscodeDotDevEndpoint = 'http://localhost:3000';
+const vscodeDotDevEndpoint = 'http://insiders.vscode.dev';
 
 const useStyles = makeStyles({
   cardTag: {

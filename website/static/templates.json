@@ -9,6 +9,15 @@
     "tags": ["bicep", "msft"]
   },
   {
+    "title": "Starter - Bicep",
+    "description": "A starter template with Bicep as infrastructure provider",
+    "preview": "./templates/images/test.png",
+    "website": "https://github.com/Azure/azure-dev",
+    "author": "Azure Dev",
+    "source": "https://github.com/Azure-Samples/azd-starter-bicep",
+    "tags": ["bicep", "msft"]
+  },
+  {
     "title": "Starter - Terraform",
     "description": "A starter template with Terraform as infrastructure provider",
     "preview": "./templates/images/test.png",
