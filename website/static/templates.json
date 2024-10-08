@@ -1,12 +1,90 @@
 [
   {
-    "title": "Starter - Bicep",
-    "description": "A starter template with Bicep as infrastructure provider",
-    "preview": "./templates/images/test.png",
-    "website": "https://github.com/Azure/azure-dev",
-    "author": "Azure Dev",
-    "source": "https://github.com/Azure-Samples/azd-starter-bicep",
-    "tags": ["bicep", "msft"]
+    "title": "RAG on PostgreSQL",
+    "description": "A RAG app to ask questions about rows in a database table. Deployable on Azure Container Apps with PostgreSQL Flexible Server.",
+    "preview": "./templates/images/rag-postgres-openai-python-screenshot_chat.png",
+    "website": "https://github.com/Azure-Samples",
+    "author": "Azure Content Team",
+    "source": "https://github.com/Azure-Samples/rag-postgres-openai-python",
+    "tags": [
+      "msft",
+      "aicollection",
+      "python",
+      "openai",
+      "aca",
+      "bicep",
+      "ai",
+      "azuredb-postgreSQL",
+      "rag",
+      "vscode-dev"
+    ]
+  },
+  {
+    "title": "Simple Chat Application using Azure OpenAI (Python)",
+    "description": "Build a chat application using Azure OpenAI GPT models.",
+    "preview": "./templates/images/openai-chat-app-quickstart_diagram.png",
+    "website": "https://github.com/Azure-Samples",
+    "author": "Azure Content Team",
+    "source": "https://github.com/Azure-Samples/openai-chat-app-quickstart",
+    "tags": [
+      "msft",
+      "aicollection",
+      "python",
+      "openai",
+      "aca",
+      "bicep",
+      "ai",
+      "vscode-dev"
+    ]
+  },
+  {
+    "title": "ChatGPT and RAG with Azure OpenAI and AI Search for JavaScript",
+    "description": "A reference sample to build Retrieval Augmented Generation applications using Azure AI Search and Azure OpenAI.",
+    "preview": "./templates/images/azure-search-openai-javascript.png",
+    "website": "https://github.com/Azure-Samples, https://github.com/anfibiacreativa, https://github.com/shibbas",
+    "author": "JavaScript Advocacy Team, Natalia Venditto, Shibani Basava",
+    "source": "https://github.com/Azure-Samples/azure-search-openai-javascript",
+    "tags": [
+      "ai",
+      "bicep",
+      "gpt",
+      "aisearch",
+      "javascript",
+      "nodejs",
+      "openai",
+      "typescript",
+      "webcomponents",
+      "microfrontend",
+      "msft",
+      "aicollection",
+      "rag",
+      "vscode-dev"
+    ]
+  },
+  {
+    "title": "ChatGPT + Enterprise data with Azure OpenAI and AI Search",
+    "description": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences.",
+    "preview": "./templates/images/azure-search-openai-demo-appcomponents.png",
+    "website": "https://github.com/Azure-Samples",
+    "author": "Azure Content Team",
+    "source": "https://github.com/Azure-Samples/azure-search-openai-demo",
+    "tags": [
+      "openai",
+      "gpt",
+      "aisearch",
+      "python",
+      "typescript",
+      "bicep",
+      "nodejs",
+      "ai",
+      "msft",
+      "popular",
+      "blobstorage",
+      "appservice",
+      "aicollection",
+      "speechservice",
+      "vscode-dev"
+    ]
   },
   {
     "title": "Starter - Bicep",
@@ -15,7 +93,7 @@
     "website": "https://github.com/Azure/azure-dev",
     "author": "Azure Dev",
     "source": "https://github.com/Azure-Samples/azd-starter-bicep",
-    "tags": ["bicep", "msft"]
+    "tags": ["bicep", "msft", "vscode-dev"]
   },
   {
     "title": "Starter - Terraform",
@@ -63,7 +141,8 @@
       "keyvault",
       "reactjs",
       "bicep",
-      "msft"
+      "msft",
+      "vscode-dev"
     ]
   },
   {
@@ -89,6 +168,7 @@
       "webapps",
       "vnets",
       "bicep",
+      "vscode-dev",
       "community"
     ]
   },
@@ -110,6 +190,7 @@
       "keyvault",
       "mongodb",
       "reactjs",
+      "vscode-dev",
       "msft"
     ]
   },
@@ -133,6 +214,7 @@
       "mongodb",
       "reactjs",
       "appservice",
+      "vscode-dev",
       "msft"
     ]
   },
@@ -157,6 +239,7 @@
       "reactjs",
       "appservice",
       "fastapi",
+      "vscode-dev",
       "msft"
     ]
   },
@@ -222,6 +305,7 @@
       "mongodb",
       "reactjs",
       "fastapi",
+      "vscode-dev",
       "msft"
     ]
   },
@@ -287,6 +371,7 @@
       "keyvault",
       "mongodb",
       "reactjs",
+      "vscode-dev",
       "msft"
     ]
   },
@@ -307,6 +392,7 @@
       "monitor",
       "mongodb",
       "reactjs",
+      "vscode-dev",
       "msft"
     ]
   },
@@ -350,6 +436,7 @@
       "reactjs",
       "appservice",
       "azuresql",
+      "vscode-dev",
       "msft"
     ]
   },
@@ -390,6 +477,7 @@
       "webapps",
       "azurespringapps",
       "azuredb-postgreSQL",
+      "vscode-dev",
       "msft"
     ]
   },
@@ -515,7 +603,7 @@
     "website": "https://github.com/Azure-Samples",
     "author": "Azure Content Team",
     "source": "https://github.com/Azure-Samples/azure-django-postgres-aca",
-    "tags": ["python", "django", "aca", "azuredb-postgreSQL", "bicep", "msft"]
+    "tags": ["python", "django", "aca", "azuredb-postgreSQL", "bicep", "vscode-dev", "msft"]
   },
   {
     "title": "Python (Flask) Web App with PostgreSQL in VNet",
@@ -531,6 +619,7 @@
       "appservice",
       "vnets",
       "flask",
+      "vscode-dev",
       "msft",
       "popular"
     ]
@@ -658,7 +747,7 @@
     "website": "https://github.com/Azure-Samples",
     "author": "Azure Content Team",
     "source": "https://github.com/Azure-Samples/fastapi-on-azure-functions",
-    "tags": ["python", "fastapi", "functions", "msft"]
+    "tags": ["python", "fastapi", "functions", "vscode-dev", "msft"]
   },
   {
     "title": "Spring PetClinic - Java Spring MySQL",
@@ -744,7 +833,7 @@
     "website": "https://github.com/tonybaloney",
     "author": "Anthony Shaw",
     "source": "https://github.com/tonybaloney/simple-flask-azd",
-    "tags": ["python", "appservice", "flask", "community"]
+    "tags": ["python", "appservice", "flask", "community", "vscode-dev"]
   },
   {
     "title": "Azure Functions - Text Summarization using AI Cognitive Language Service (C#-Isolated)",
@@ -872,7 +961,8 @@
       "bicep",
       "azuredb-postgreSQL",
       "keyvault",
-      "community"
+      "community",
+      "vscode-dev"
     ]
   },
   {
@@ -955,6 +1045,7 @@
       "appservice",
       "webapps",
       "azuredb-postgreSQL",
+      "vscode-dev",
       "community"
     ]
   },
@@ -1342,6 +1433,7 @@
       "webapps",
       "azuredb-mySQL",
       "keyvault",
+      "vscode-dev",
       "community"
     ]
   },
@@ -1361,6 +1453,7 @@
       "eventhub",
       "azurestorage",
       "vnets",
+      "vscode-dev",
       "msft"
     ]
   },

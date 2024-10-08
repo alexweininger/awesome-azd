@@ -8,7 +8,6 @@ import ShowcaseEmptyResult from "../components/gallery/ShowcaseEmptyResult";
 import { type User, type TagType } from "../data/tags";
 import styles from "./styles.module.css";
 import ShowcaseCard from "../components/gallery/ShowcaseCard";
-import ShowcaseContributionCard from "../components/gallery/ShowcaseContributionCard";
 
 export default function ShowcaseCards({
   filteredUsers,
@@ -32,7 +31,7 @@ export default function ShowcaseCards({
                     <ShowcaseCard user={user} />
                   </React.Fragment>
                   <React.Fragment key="fragment_contributionCard">
-                    <ShowcaseContributionCard />
+                    {/* <ShowcaseContributionCard /> */}
                   </React.Fragment>
                 </React.Fragment>
               ) : (

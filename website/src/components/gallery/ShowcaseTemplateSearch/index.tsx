@@ -11,6 +11,8 @@ import { Text, Link as FluentUILink } from "@fluentui/react-components";
 import styles from "./styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { useColorMode } from "@docusaurus/theme-common";
+import ShowcaseCard from "../ShowcaseCard";
+import { sortedUsers, unsortedUsers } from "../../../data/users";
 
 const TITLE = "Template Library";
 const DESCRIPTION =
@@ -107,6 +109,9 @@ function FilterBar(): React.JSX.Element {
 
 export default function ShowcaseTemplateSearch() {
   const { colorMode } = useColorMode();
+
+  const users = sortedUsers;
+
   return (
     <div className={styles.searchContainer}>
       <img
@@ -121,6 +126,47 @@ export default function ShowcaseTemplateSearch() {
         }}
         alt=""
       />
+      <div className={styles.searchArea}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            width: "100%",
+            alignItems: "center",
+          }}
+        >
+          <div className={styles.heroBar}>
+            <Text
+              size={800}
+              align="center"
+              weight="semibold"
+              style={{
+                background:
+                  "linear-gradient(90deg, rgb(112.68, 94.63, 239.06) 0%, rgb(41.21, 120.83, 190.19) 100%)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              Featured AI Templates
+            </Text>
+          </div>
+
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(275px, 1fr))",
+            gap: "36px",
+            maxWidth: "1300px",
+            width: "100%"
+          }}>
+            <ShowcaseCard user={unsortedUsers[0]} />
+            <ShowcaseCard user={unsortedUsers[1]} />
+            <ShowcaseCard user={unsortedUsers[2]} />
+            <ShowcaseCard user={unsortedUsers[3]} />
+          </div>
+
+        </div>
+
+      </div>
       <div className={styles.searchArea}>
         <div
           style={{

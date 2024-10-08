@@ -7,8 +7,8 @@ import React from "react";
 import styles from "./styles.module.css";
 import { Tag, Tags, type User, type TagType } from "../../../data/tags";
 import { TagList } from "../../../data/users";
-import { sortBy } from "@site/src/utils/jsUtils";
 import { Badge, Tooltip, makeStyles } from "@fluentui/react-components";
+import { sortBy } from "../../../utils/jsUtils";
 
 const TagComp = React.forwardRef<HTMLDivElement, Tag>(
   ({ label, description }, ref) => (
@@ -58,7 +58,7 @@ export default function ShowcaseCardTag({
   );
 
   const checkAzureTag = tagObjectsSorted.filter((tag) =>
-    tag.label.includes("Azure")
+    tag.label?.includes("Azure")
   );
 
   const length = tagObjectsSorted.length;
@@ -81,7 +81,7 @@ export default function ShowcaseCardTag({
         <>
           {tagObjectsSorted.slice(0, number).map((tagObject, index) => {
             const id = `showcase_card_tag_${tagObject.tag}`;
-            return <TagComp key={index} id={id} {...tagObject} />;
+            return <TagComp key={index} {...tagObject} />;
           })}
           <Tooltip
             withArrow
@@ -116,7 +116,7 @@ export default function ShowcaseCardTag({
           {tagObjectsSorted.map((tagObject, index) => {
             const id = `showcase_card_tag_${tagObject.tag}`;
             return (
-                <TagComp key={id} id={id} {...tagObject} />
+                <TagComp key={id} {...tagObject} />
             );
           })}
         </>

@@ -18,7 +18,7 @@ import templates from '../../static/templates.json'
 // prettier-ignore
 
 export const unsortedUsers: User[] = templates.filter((template) => {
-  return !template.tags.includes('aca');
+  return template.tags.includes('vscode-dev');
 }) as User[]
 
 export const TagList = Object.keys(Tags) as TagType[];
