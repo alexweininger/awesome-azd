@@ -121,7 +121,8 @@ export type TagType =
   | "rag"
   | "featureExperimentation"
   | "featuremanagement"
-  | "vscode-dev";
+  | "vscode-dev"
+  | "gpt";
 
 // LIST OF AVAILABLE TAGS
 // Each tag in lit about must have a defined object here

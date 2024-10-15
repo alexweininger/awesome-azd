@@ -87,6 +87,34 @@
     ]
   },
   {
+    "title": "Serverless ChatGPT with RAG using LangChain.js",
+    "description": "A Serverless ChatGPT-like experience with Retrieval-Augmented Generation using LangChain.js, TypeScript and Azure",
+    "preview": "./templates/images/serverless-chat-langchainjs.gif",
+    "website": "https://github.com/glaucia86, https://github.com/sinedied",
+    "author": "Glaucia Lemos, Yohan Lasorsa",
+    "source": "https://github.com/Azure-Samples/serverless-chat-langchainjs",
+    "tags": [
+      "ai",
+      "bicep",
+      "gpt",
+      "serverlessapi",
+      "javascript",
+      "nodejs",
+      "openai",
+      "typescript",
+      "webcomponents",
+      "cosmosdb",
+      "msft",
+      "langchain",
+      "functions",
+      "swa",
+      "azureai",
+      "aicollection",
+      "rag",
+      "vscode-dev"
+    ]
+  },
+  {
     "title": "Starter - Bicep",
     "description": "A starter template with Bicep as infrastructure provider",
     "preview": "./templates/images/test.png",
@@ -531,11 +559,12 @@
       "bicep",
       "python",
       "openai",
-      "chatgpt",
+      "gpt",
       "ai",
       "flask",
       "aca",
-      "msft"
+      "msft",
+      "vscode-dev"
     ]
   },
   {
